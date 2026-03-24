@@ -1,0 +1,36 @@
+{
+  "gestures": [
+    {
+      "id": "calc",
+      "name": "calc",
+      "action": "open_app",
+      "appPath": "Calculator",
+      "emoji": "\u270b"
+    },
+    {
+      "id": "wow",
+      "name": "wow ",
+      "action": "play_pause",
+      "appPath": "",
+      "emoji": "\u270c\ufe0f"
+    },
+    {
+      "id": "mute",
+      "name": "mute",
+      "action": "mute_toggle",
+      "appPath": "",
+      "emoji": "\ud83d\udc46"
+    },
+    {
+      "id": "why",
+      "name": "why",
+      "action": "switch_tab",
+      "appPath": "",
+      "emoji": "ww"
+    }
+  ],
+  "settings": {
+    "confidenceThreshold": 0.85,
+    "cooldownMs": 1500
+  }
+}

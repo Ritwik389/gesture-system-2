@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply antialiased min-h-screen bg-base-300;
+  }
+}
+
+@layer components {
+  .radial-clean {
+    width: var(--size);
+    height: var(--size);
+    aspect-ratio: 1 / 1;
+  }
+  .radial-clean::after {
+    display: none;
+  }
+}
